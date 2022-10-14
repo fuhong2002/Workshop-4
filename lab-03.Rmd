@@ -1,6 +1,6 @@
 ---
 title: "Lab 03 - Nobel laureates"
-author: "Fuhong, Kevin GU, Alex, Haotian Wu"
+author: "Fuhong, Kevin GU, Alex, Haotian Wu, Mark Ross"
 date: "`r Sys.Date()`"
 output: html_document
 ---
