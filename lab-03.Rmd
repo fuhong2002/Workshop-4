@@ -18,9 +18,14 @@ nobel <- read_csv("data/nobel.csv")
 
 ### Exercise 1
 
-#### Narrative
+```{r}
+nobel %>%
+nrow()
+nobel %>%
+ncol()
+```
 
-*Remove this text and add your answer here.*
+There are 935 observations and 26 variables. Each observation refers to a nobel prize winner.
 
 
 ### Exercise 2
@@ -28,7 +33,7 @@ nobel <- read_csv("data/nobel.csv")
 #### Code
 
 ```{r nobel-living}
-# remove this comment and add your code here
+
 ```
 
 #### Narrative
