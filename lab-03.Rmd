@@ -25,7 +25,7 @@ nobel %>%
 ncol()
 ```
 
-There are 935 observations and 26 variables. Each observation refers to a nobel prize winner.
+There are 935 observations and 26 variables. Each observation refers to a nobel prize winners.
 
 
 ### Exercise 2
