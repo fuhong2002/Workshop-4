@@ -30,15 +30,16 @@ There are 935 observations and 26 variables. Each observation refers to a nobel 
 
 ### Exercise 2
 
-#### Code
+
 
 ```{r nobel-living}
-
+nobel_living <- filter(nobel, !is.na(country), gender != "org", 
+                       is.na(died_date))
+nrow(nobel_living)
 ```
 
-#### Narrative
 
-*Remove this text and add your answer here.*
+The are 228 observations who are living individual
 
 
 ### Exercise 3
